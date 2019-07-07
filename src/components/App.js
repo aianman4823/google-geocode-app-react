@@ -4,7 +4,7 @@ import axios from 'axios';
 
 
 
-const GEOCODE_ENDPOINT ='https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyBetmhuBYLD5NZCZVZGLiud5XGBihukOsA'
+const GEOCODE_ENDPOINT ='https://maps.googleapis.com/maps/api/geocode/json?key={Your api}'
 
 
 export default class App extends React.Component{
