@@ -11,7 +11,7 @@ export default class App extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            place:'東京タワー',
+            place:'',
         };
         this.handleGetLatAndLng=this.handleGetLatAndLng.bind(this)
         this.handleDelete=this.handleDelete.bind(this)
